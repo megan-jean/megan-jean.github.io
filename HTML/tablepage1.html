@@ -1,0 +1,387 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Page</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!-- Custom  CSS-->
+    <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/grady.css" />
+</head>
+<body>
+  <!-- TEST BOOTSTRAP HEADER -->
+  <nav class="navbar navbar-expand-lg navbar-light topNav">
+        <a class="navbar-brand" id="OTlogo" href="#">O + T</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../HTML/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registry</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Favorites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+            </li>
+            <li class="nav-item">
+                <b><a class="nav-link" href="#">Cart</a></b>
+            </li>
+          </ul>
+          <span class="navbar-text">
+              <a class="navbar-brand" id="targetLogo" href="www.target.com"><img src="../Images/target-black-extrasmall.png">Target</a>
+          </span>
+        </div>
+      </nav>
+      <!-- TEST BOOTSTRAP HEADER END -->
+      
+      
+        <!-- NEW HEADER START -->
+        <!-- <div class="container"> -->
+          <!-- <div class="container">     -->
+              <!-- <div class="row topNav">
+                    <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+                    <div class="col-2 topHome"></div>
+                    <div class="col-2 topOT">Oak + Thread</div>
+                    <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
+                    <div class="col-2 topGiftCards">Gift Cards</div>
+                    <div class="col-2 topRegistry">Registry</div>
+              </div> -->
+          <!-- </div>   -->
+        <!-- NEW HEADER END -->
+      
+        <!-- NEW MID NAV START -->
+        <br>  
+        <div class="container">   
+            <div class="row">
+                <!-- <div class="col-1"></div> -->
+                <div class="col-md-4 searchBar">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-danger" style="border-radius: .25rem;" type="submit"><a class="btnLink" href="../HTML/SearchTable.html">Search</a></button>
+                      </form> 
+                  <!-- <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0 flex-row-reverse" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                        </form> -->
+                    </div>
+                  <div class="col-md-4 logo">Oak + Thread</div>
+                  <div class="col-1"></div>
+                  <div class="midNavIcons">
+                      <a class="heartIcon"> <img id="optionalstuff" src="../Images/Heart Icon.png"></a>
+                      <a class="accountIcon"> <img id="optionalstuff" src="../Images/Account Icon.png"></a>
+                      <a class="cartIcon"> <img id="optionalstuff" src="../Images/Cart Icon.png"></a>
+                      <a id="optionalstuff">Favorites</a>
+                      <a id="optionalstuff">Account</a>
+                      <a id="optionalstuff">Cart</a>
+                  </div>
+                </div>
+              </div> 
+                <br>
+      
+        <!-- NEW MID NAV END -->
+      
+      <!-- HEADER START -->
+        <header class="page-index">
+            <!-- TOP BAR START
+            <nav class="topNav">
+                <div class="wrap">
+                    <div class="top-bar-home">
+                        <a class="homeLink" href="index.html">Home</a>
+                    </div>
+                    <div class="top-bar-tabs">
+                        <a class="oatGrid">Oak + Thread</a>
+                        <a class="targetGrid"><img src="../Images/target-black-extrasmall.png">Target</a>
+                    </div>
+                    <div class="top-bar-links">
+                        <a href="https://www.target.com">Gift Cards</a>
+                        <a href="https://www.target.com">Registry</a>
+                    </div>
+                </div>
+            </nav>
+             TOP BAR END -->
+            
+            <!-- MID NAV BAR START -->
+            <!-- <nav class="midNav">
+                <div class="wrap">
+                    <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                          </form>
+                    <div class="logo">Oak + Thread</div>
+                    <div class="midNavIcons">
+                        <a class="heartIcon"> <img src="../Images/Heart Icon.png"></a>
+                        <a class="accountIcon"> <img src="../Images/Account Icon.png"></a>
+                        <a class="cartIcon"> <img src="../Images/Cart Icon.png"></a>
+                        <a>Favorites</a>
+                        <a>Account</a>
+                        <a>Cart</a>
+                    </div>
+                </div>
+            </nav> -->
+            <!-- MID NAV BAR END -->
+            
+            <!-- MAIN NAV START -->
+            <nav>
+              <div class="container">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="homeLink" href="#">Living Room</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="homeLink" href="#">Dining Room</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="homeLink" href="#">Bedroom</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" id="homeLink" href="#">Home Office</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" id="homeLink" href="#">Outdoors</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <!-- MAIN NAV END -->
+        </header>
+        <!-- HEADER END -->
+    ​
+    <div class="container" id="product-section">
+        <div class="row">
+         <div class="col-md-7">
+          <img src="../Images/table1.png" class="img-fluid" width="635">
+          <div class="container">
+              <div class="row">
+                <div class="col subpics colGrady" id="chair2"><img src="../Images/table2.png" class="img-fluid" width="180" height="100"></div>
+                <div class="col subpics colGrady" id="chair3"><img src="../Images/table3.png" class="img-fluid" width="180" height="100"></div>
+                <div class="col subpics colGrady" id="chair4"></div>
+              </div>
+            </div>
+         </div>
+​
+         <div class="col-md-5">
+            <div class="container">
+                <div class="row">
+                  <div class="col-10 colGrady"><h1 class="productnametext">Natural Coffee Table</h1></div>
+                  <div class="col colGrady heartIconGrady"><img src="../Images/Heart Icon.png" align="right" width="25" height="25"></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady heartIconGrady"><p class="skutext">SKU: 592741</p></div>
+                  <div class="col colGrady heartIconGrady"><img src="../Images/fivestars.png" align="right" width="100" height="15"></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady"><p class="pricetext">$159.00</p></div>
+                  <div class="col colGrady"><p class="rewiewstext" align="right">37 Reviews</p></div>
+                  <div class="w-100"></div>
+                  <div class="col colGrady"><img src="../Images/threesquaresnoheart.png" width="100" height="30"></div>
+                  <div class="col mainCart">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary">+</button>
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-secondary">-</button>
+                        </div>                            
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <button
+                    type="button" class="btn btn-primary btn-danger btn-block" data-toggle="modal" data-target="#cartModal">
+                    Add to Cart
+                  </button>
+                  </div>
+                </div>
+                    <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Overview
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Details & Dimensions
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge">+</span>
+                        Shipping & Returns
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+​
+
+  <!-- MODAL START -->
+                <!-- Modal Button -->
+  <!-- <button
+      type="button" class="btn btn-danger confirm-shipping col-md-4 confShipBtn" data-toggle="modal" data-target="#cartModal">
+        Confirm Shipping
+  </button> -->
+      
+  <div class="modal" id="cartModal">
+        <div class="container modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gridModalLabel" style="font-size: 1.5rem;">Added to Cart!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">x</span>
+            </button>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <!-- <h2>Added to Cart!</h2> -->
+              <img src="../Images/table top.jpg" class="img-fluid" style="margin-bottom:10px; margin-top: 1rem;"></a>
+              <h3 style="margin-bottom:10px; margin-top: .5rem; font-size: 1.5rem;">Natural Coffee Table</h3>
+              <h4 style="font-size: 1.2rem;">$159.00</h4>
+            </div>
+            <div class="col-md-6" style="height: 250px;">
+              <h3 style="font-size: 1.5rem; padding-left: 15px; margin-top: 1rem;">Currently in Cart: 1 item</h3>
+              <h4 style="padding-left: 15px; font-size: 1.2rem;">$159.00</h4>
+              <h6 style="padding: 0px 0px 15px 15px;">(Total not including shipping,
+                discounts, or tax)</h6>
+                <div class="col colGrady">
+                    <button type="button" class="btn btn-block btn-outline-dark" style="margin-bottom:15px">
+                        <a href="../HTML/homeLamp.html" class="img-fluid" class="img-fluid">Continue Shopping</a></button>
+                  </div>
+                <div class="col colGrady">
+                    <button type="button" class="btn btn-primary btn-block btn-danger">
+                            <a class="btnLink" href="../HTML/shoppingcart.html">Go to Cart</a></button>
+                  </div>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-sm-9">
+              <h3 Style="margin-top:40px; margin-bottom:30px; font-size: 1.2rem;">Trending Coffee & Accent Tables</h3> 
+              <div class="row">
+                <div class="col-sm-5">
+                  <img class="img-responsive" src="../Images/cliffmayTable255x255.png"></a>
+                  <h5 style="font-size: 1rem; padding-top: 10px;">Cliffmay Coffee Table</h5>
+                  <h5 style="font-size: .8rem;">$179.99</h5>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-responsive"src="../Images/loringTable255x255.png"></a>
+                  <h5 style="font-size: 1rem; padding-top: 10px;">Loring Coffee Table</h5>
+                  <h5 style="font-size: .8rem;">$149.00</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- MODAL END -->
+
+  <!-- FOOTER START -->
+  <br>
+  <br>
+  <br>
+    <footer class="page-footer font-small blue pt-4 nav-fill">
+  
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left">
+        
+            <!-- Grid row -->
+            <div class="row">
+        
+              <!-- Grid column -->
+              <div class="col-md-6 mt-md-0 mt-3">
+        
+                <!-- Content -->
+                <h5 class="text-uppercase">Contact Us</h5>
+                <p><a href="#!" class="footerLink">1 (800) 646-9985</a></p>
+                <p><a href="mailto: customerservice@oakandthread.com" class="footerLink">customerservice@oakandthread.com</a></p>
+                <p><a href="www.target.com" class="footerLink">Find a Target</a></p>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <hr class="clearfix w-100 d-md-none pb-3">
+        
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase">Customer Service</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="footerLink">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Ordering & Payment</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Shipping</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Returns</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">FAQs</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase">Information</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="footerLink">Work With Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="footerLink">Media Inquiries</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+            </div>
+          </div>
+          <!-- Footer Links -->
+        
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright
+          </div>
+          <!-- Copyright -->
+    <br>
+    <br>
+      </footer>
+      <!-- FOOTER END -->
+<!-- Bootstrap JAVA -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+</body>
+</html>

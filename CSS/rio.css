@@ -1,0 +1,53 @@
+label [for=exampleInputPassword1] {
+    color: yellow;
+}
+​
+.form-group {
+    font-family: "lato";
+}
+​
+/* making buttons black outline */
+/* .btn-secondary {
+    background-color: transparent;
+    color: black;
+}
+​
+button {
+    background-color: transparent;
+} */
+​
+.btn-secondary {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    text-align: left;
+}
+
+/* making things go side by side */
+.checkoutAll {
+    display: flex;
+    margin: 30px auto 0;
+    max-width: 1172px;
+    padding: 0 72px 24px;
+    justify-content: space-around;
+}
+
+.dropdown {
+    text-align: left;
+}
+
+.form-group {
+    margin-top: 1em;
+}
+
+.securityQ {
+    align-content: center;
+}
+
+.colSecurity {
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+}

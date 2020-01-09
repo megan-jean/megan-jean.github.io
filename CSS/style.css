@@ -1,0 +1,125 @@
+/* <!--  /**************************** 
+*   1  :  Helper            *
+*   2  :  Navbar-custom     *
+*   3  :  Title             *
+*   4  :  Home              *
+*   5  :  Features          *
+*   6  :  SERVICES          *
+*   7  :  Clients           *
+*   8  :  Portfolio         *
+*   9  :  Blog              *
+*   10 :  Team              *
+*   11 :  Pricing           *
+*   12 :  Contact           *
+*   13 :  Footer            *
+*   14 :  Responsive        *
+******************************/
+
+/* Lauren Boone */
+
+/* SEARCH RESULTS STYLE START!!! */
+#search1 {
+    text-align: left;
+}
+
+#search2 {
+    text-align: left;
+}
+
+/* Filter by and Sort By alignment */
+#filterBy {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#sortBy {
+    text-align: right;
+    padding-right: 130px;
+    padding-bottom: 10px;
+}
+
+/* Put boxes around filter categories */
+.filterBar {
+    /* outline: 2px solid; */
+    margin: 0px 10px 0px 10px;
+}
+
+/* Captions for photos aligned left and spaced */
+.subtitle1 {
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+    font-size: 10pt;
+}
+
+/* Price subtitles no margin up top */
+
+ .subtitle2 { 
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+    font-size: 10pt;
+}
+
+/* Links */
+.homeLink {
+    color: black;
+}
+
+.btnLink {
+    color: white;
+}
+
+
+/* SHOPPING CART START */
+
+    /* underline grid lablels */
+    .shoppingLines {
+        border: .02rem solid black;
+        margin-bottom: 25px;
+    }
+
+    .mainCart {
+        text-align: left;
+    }
+
+    .cartPhoto {
+        text-align: left;
+        padding: 0px;
+    }
+
+    /* Cart summary alignment & button */
+    .cartSummary {
+        text-align: end;
+        padding: .5rem 0rem .5rem 0rem;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #C90404;
+        border-color: #C90404;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
+    .btn-secondary {
+        background-color: black;
+    }
+
+    .searchBtn {
+        border-radius: .25rem;
+    }
+
+    .btnCart {
+        align-self: right;
+    }
+
+    #returnsPolicy {
+        text-decoration: underline;
+    }
+
+    /* NEW SEARCH CARDS */
+    .card-body {
+        padding: 1.25rem 0rem 1.25rem 0rem;
+    }
+

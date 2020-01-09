@@ -1,0 +1,282 @@
+/* <!--  /**************************** 
+*   1  :  Helper            *
+*   2  :  Navbar-custom     *
+*   3  :  Title             *
+*   4  :  Home              *
+*   5  :  Features          *
+*   6  :  SERVICES          *
+*   7  :  Clients           *
+*   8  :  Portfolio         *
+*   9  :  Blog              *
+*   10 :  Team              *
+*   11 :  Pricing           *
+*   12 :  Contact           *
+*   13 :  Footer            *
+*   14 :  Responsive        *
+******************************/
+/* Lauren Boone */
+/* body default font */
+body {
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
+/* Nav center */
+/* .topNav {
+    background-color: #efeade;
+  }
+  .wrap {
+    margin: 0 142px; */
+
+/* Flexbox on Nav */
+/* nav .wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+  } */
+/* Making tabs on top Nav bar */
+.top-bar-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+.wrap {
+  box-sizing: border-box;
+}
+/* .oatGrid {
+    background-color: #fff;
+    padding: 20px 9px;
+  }
+  .targetGrid {
+    padding: 20px 9px;
+  }
+  .top-bar-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+  } */
+/* links */
+/* a:link {
+    color: black;
+    text-decoration: underline;
+  } */
+/* Middle nav sear bar, logo and icons */
+/* .midNav .wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+  }
+  .logo {
+    font-family: "Motters";
+    font-size: 70pt;
+    padding: 0px 200px 0px 0px; */
+
+/* Search Bar */
+/* .btn {
+    background-color: black;
+    color: white;
+    border-color: white;
+  } */
+/* Mid nav Icons in grid */
+/* .midNavIcons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  } */
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+/* a {
+    color: white; */
+/* } */
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.shipping-content {
+  margin-bottom: 85px;
+  text-align: center;
+}
+.checkout-summary {
+  /* border: 2px solid grey; */
+  background-color: #f2f2f2;
+}
+.checkout-summary__column-one {
+  flex-direction: column;
+  display: flex;
+}
+.checkout-summary__column-two {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+}
+.checkout-summary__header {
+  text-align: center;
+  margin-top: 10px;
+}
+.confirm-shipping {
+  margin-top: 50px;
+}
+
+/* Progress Bar */
+.barHighlight {
+  background-color: black;
+}
+
+.barUnselected {
+  background-color: #c3c3c3;
+}
+
+.progress-bar-striped {
+  background-color: #c3c3c3;
+}
+
+.progress-bar {
+  font-size: medium;
+}
+
+/* Font weights */
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 13pt;
+}
+
+h4 {
+  font-size: 12pt;
+}
+
+/* column padding for shipping box */
+.col1 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col2 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* button */
+/* .btn {
+    font-size: 25px;
+    color: white;
+} */
+
+.footerLink {
+  color: white;
+}
+
+/* .confShipBtn { */
+/* margin-left: 95px; */
+/* } */
+
+/* Credit card form 
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .nav-pills .nav-link {
+    color: #555;
+  }
+  
+  .nav-pills .nav-link.active {
+    color: #fff;
+  }*/
+
+/* Confirmation Page */
+.confSent {
+  text-align: center;
+}
+
+.confBtn {
+  align-self: center;
+}
+
+.confirmation-summary__header {
+  color: green;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.confirmation-summary {
+  border: 3px solid green;
+}
+
+/* Flex Box Test */
+.checkoutAll {
+  display: flex;
+  margin: 30px auto 0;
+  max-width: 1172px;
+  padding: 0 72px 24px;
+  justify-content: space-around;
+}
+
+.form-row {
+  justify-content: space-around;
+}
+
+.form-control {
+  width: auto;
+}
+
+#confirmbtn {
+  justify-content: left;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.checkoutSummary {
+  justify-content: center;
+}
+
+.card-header:first-child {
+  background-color: #6d9e54;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .progress-bar {
+    font-size: 0.1em !important;
+  }
+}
+@media (max-width: 600px) {
+  #optionalstuff {
+    display: none !important;
+  }
+}

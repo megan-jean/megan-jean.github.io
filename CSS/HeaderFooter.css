@@ -1,0 +1,270 @@
+/* HOMEPAGE STYLE START */
+/* body default font */
+body {
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+/* Nav center */
+.topNav {
+  background-color: #efeade;
+}
+
+.topHome {
+  text-align: end;
+  color: black;
+}
+
+.topOT {
+  text-align: end;
+}
+
+.topGiftcards {
+  text-align: end;
+}
+
+.wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.topTarget {
+  padding-right: 1rem;
+}
+
+/* Flexbox on Nav */
+/* nav .wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+} */
+
+/* Making tabs on top Nav bar */
+
+.top-bar-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.wrap {
+  box-sizing: border-box;
+}
+
+.oatGrid {
+  background-color: #fff;
+  padding: 20px 9px;
+}
+
+.targetGrid {
+  padding: 20px 9px;
+}
+
+.top-bar-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+}
+
+/* links */
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+}
+
+#homeLink {
+  color: black;
+}
+
+/* .homeLink {
+    color: black;
+} */
+
+a:hover {
+  color: white;
+}
+
+.nav-item {
+  color: black;
+}
+
+/* button active color */
+/* .btn-primary:hover {
+    color: pink !important;
+} */
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2;
+} */
+
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+
+/* Middle nav sear bar, logo and icons */
+
+.midNav .wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Motters";
+  font-size: 70pt;
+  text-align: center;
+}
+
+.searchBar {
+  align-self: center;
+  justify-self: end;
+}
+
+/* All buttons */
+.btn {
+  border-radius: 0px;
+}
+
+/* .button-primary-override:hover, 
+.button-primary-override:active,
+.button-primary-override:focus,
+.button-primary-override:visited{
+    background-color: #42A5F5 !important;
+    border-color: #42A5F5 !important;
+    background-image: none !important;
+    border: 0 !important;
+} */
+
+/* Mid nav Icons in grid */
+.midNavIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 16px;
+  text-align: center;
+  /* align-self: center;
+    text-align: center; */
+}
+
+.heartIcon {
+  align-self: end;
+}
+
+.accountIcon {
+  align-self: end;
+}
+
+.cartIcon {
+  align-self: end;
+}
+
+/* Main Nav Flexbox */
+.justify-content-center {
+  justify-content: space-between;
+}
+
+/* Hero Image */
+#hero {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
+
+/* Bottom Images Tan Boxes */
+#tanbox1 {
+  background-color: #efeade;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+#tanboxHome {
+    background-color: #efeade;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+.card {
+  border: transparent;
+}
+
+#tanbox2 {
+  background-color: #efeade;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Center Tan Box Text */
+.col {
+  text-align: center;
+}
+
+/* Footer---NEED TO CHANGE LINK COLOR TO WHITE */
+.page-footer {
+  background-color: black;
+  color: white;
+}
+
+.footerLink {
+  color: white !important;
+}
+
+/* Instagram */
+
+.InstaTitle {
+  margin-bottom: 40px;
+  /* outline: 2px solid; */
+  /* margin-left: 470px; */
+}
+
+/* HEADER STYLE END!!!!! */
+
+/* NEW HEADER */
+
+#OTlogo {
+  font-family: "Motters";
+  font-size: 2em;
+  text-decoration: none;
+  margin-right: 3em;
+}
+
+/* #targetLogo {
+    margin-right: 3em;
+} */
+
+/* Trying to make hero image mobile responsive */
+/* @media only screen and (min-width: 768px) {
+    #hero {
+    background-image: url(../Images/hero-mobile.png);
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #hero {
+    background-image: url(../Images/small-space-chic-1110.png);
+    }
+} */
+
+/* Hide Icons on Mobile */
+@media (max-width: 600px) {
+  #optionalstuff {
+    display: none !important;
+  }
+  .insta-stack {
+    padding-top: 15px;
+  }
+}

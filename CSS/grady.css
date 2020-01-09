@@ -1,0 +1,94 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  /* Making sub-pictures aligned with big pic */
+  .subpics {
+      padding: 10px 0px 0px 0px;
+      align-items: start;
+  }
+  /* Button */
+  .btn-primary {
+    color: #fff;
+    background-color: #C90404;
+    border-color: #C90404;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .btn-group-lg>.btn, .btn-lg {
+    padding: .25rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+  }
+  /* Button styling 
+  element.style {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  /* Expanded lists  */
+  .list-group-item {
+      margin-bottom: 10px;
+      border: 2px solid black;
+  }
+  .list-group-item:first-child {
+      border-top-left-radius: 0rem;
+      border-top-right-radius: 0rem;
+  }
+  .list-group-item:last-child {
+      margin-bottom: 0;
+      border-bottom-right-radius: 0rem;
+      border-bottom-left-radius: 0rem;
+  }
+  .list-group-item {
+      padding: .5rem;
+  } 
+
+  /* Title font size */
+  .productnametext {
+      font-size: 2rem;
+  }
+
+  /* Overriding column center */
+  .colGrady {
+    text-align: left;
+  }
+
+  .mainCart {
+    text-align: right;
+}
+
+.heartIconGrady {
+    align-self: center;
+}
+
+/* MODAL START */
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}

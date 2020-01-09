@@ -1,0 +1,419 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- Logo font -->
+        <link rel="stylesheet" type="text/css" media="screen" href="../Fonts/Motters.css">
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom  CSS-->
+        <link rel="stylesheet" type="text/css" href="../CSS/HeaderFooter.css" />
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+</head>
+
+<body>
+  <!-- TEST BOOTSTRAP HEADER -->
+  <nav class="navbar navbar-expand-lg navbar-light topNav">
+      <a class="navbar-brand" id="OTlogo" href="#">O + T</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../HTML/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gift Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registry</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Favorites</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Account</a>
+          </li>
+          <li class="nav-item">
+              <b><a class="nav-link" href="#">Cart</a></b>
+          </li>
+        </ul>
+        <span class="navbar-text">
+            <a class="navbar-brand" id="targetLogo" href="www.target.com"><img src="../Images/target-black-extrasmall.png">Target</a>
+        </span>
+      </div>
+    </nav>
+    <!-- TEST BOOTSTRAP HEADER END -->
+    
+    
+      <!-- NEW HEADER START -->
+      <!-- <div class="container"> -->
+        <!-- <div class="container">     -->
+            <!-- <div class="row topNav">
+                  <div class="col-2 topHome"><a id="homeLink" href="../HTML/index.html">Home</a></div>
+                  <div class="col-2 topHome"></div>
+                  <div class="col-2 topOT">Oak + Thread</div>
+                  <div class="col-2 topTarget"><img src="../Images/target-black-extrasmall.png">Target</div>
+                  <div class="col-2 topGiftCards">Gift Cards</div>
+                  <div class="col-2 topRegistry">Registry</div>
+            </div> -->
+        <!-- </div>   -->
+      <!-- NEW HEADER END -->
+    
+      <!-- NEW MID NAV START -->
+      <br>  
+      <div class="container">   
+          <div class="row">
+              <!-- <div class="col-1"></div> -->
+              <div class="col-md-4 searchBar">
+                  <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-danger" style="border-radius: .25rem;" type="submit"><a class="btnLink" href="../HTML/SearchTable.html">Search</a></button>
+                    </form> 
+                <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 flex-row-reverse" type="submit"><a href="../HTML/SearchTable.html">Search</a></button>
+                      </form> -->
+                  </div>
+                <div class="col-md-4 logo">Oak + Thread</div>
+                <div class="col-1"></div>
+                <div class="midNavIcons">
+                    <a class="heartIcon"> <img id="optionalstuff" src="../Images/Heart Icon.png"></a>
+                    <a class="accountIcon"> <img id="optionalstuff" src="../Images/Account Icon.png"></a>
+                    <a class="cartIcon"> <img id="optionalstuff" src="../Images/Cart Icon.png"></a>
+                    <a id="optionalstuff">Favorites</a>
+                    <a id="optionalstuff">Account</a>
+                    <a id="optionalstuff">Cart</a>
+                </div>
+              </div>
+            </div> 
+              <br>
+    
+      <!-- NEW MID NAV END -->
+        
+        <!-- MAIN NAV START -->
+        <nav>
+        <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Living Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dining Room</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bedroom</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Home Office</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Outdoors</a>
+                </li>
+              </ul>
+        </nav>
+        <!-- MAIN NAV END -->
+    </header>
+    <!-- HEADER END -->
+
+<!-- DETAILS START -->
+<br>
+<div class="container">
+    <div class="row searchResults">
+      <div class="col" id="search1">4 Search Results for</div>
+      <div class="w-100"></div>
+      <div class="col" id="search2">LAMP</div>
+    </div>
+  </div>
+  <br>
+<!-- DETAILS END -->
+
+ <!-- New Filter -->
+ <nav class="navbar filterBar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand">Filter By:</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Category
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Ceiling Lights</a>
+                  <a class="dropdown-item" href="#">Pendants</a>
+                  <a class="dropdown-item" href="#">Chandeliers</a>
+                </div>
+              </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Finish
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Brass</a>
+                <a class="dropdown-item" href="#">Bronze</a>
+                <a class="dropdown-item" href="#">Nickel</a>
+              </div>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Price
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Under $50</a>
+              <a class="dropdown-item" href="#">$50-$100</a>
+              <a class="dropdown-item" href="#">$150-$200</a>
+              <a class="dropdown-item" href="#">$250-$300</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Style
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Globe</a>
+                <a class="dropdown-item" href="#">Industrial</a>
+                <a class="dropdown-item" href="#">Mid-Century</a>
+                <a class="dropdown-item" href="#">Novelty</a>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <!-- NEw Filter End -->
+
+  <!-- SEARCH RESULTS GRID START -->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+            <a href="../HTML/lamppage1.html"><img src="../Images/ellisLamp255x255.png"></a>
+          <div class="card-body">
+            <h5 class="card-title">Ellis Tripod Floor Lamp</h5>
+            <p class="card-text">$79.00</p>
+            <img src="../Images/tansquare.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card">
+              <img height="255" width="255" src="../Images/goldLamp255x255.png">
+            <div class="card-body">
+              <h5 class="card-title">Gold Accent Lamp</h5>
+              <p class="card-text">$24.99</p>
+              <img src="../Images/tansquare.png">
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card">
+              <img height="255" width="255" src="../Images/edrisLamp255x255.png">
+            <div class="card-body">
+              <h5 class="card-title">Edris Brass Floor Lamp</h5>
+              <p class="card-text">$89.00</p>
+              <img src="../Images/tansquare.png">
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card">
+              <img height="255" width="255" src="../Images/genevaLamp255x255.png">
+            <div class="card-body">
+              <h5 class="card-title">Geneva Globe Lamp</h5>
+              <p class="card-text">$99.99</p>
+              <img src="../Images/tansquare.png">
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <img height="255" width="255" src="../Images/hammeredTable255x255.png">
+              <div class="card-body">
+                <h5 class="card-title">Hammered Barrel Coffee Table</h5>
+                <p class="card-text">$134.00</p>
+                <img src="../Images/yellowsquare.png">
+              </div>
+            </div>
+        </div> -->
+        <!-- <div class="col-sm-3">
+            <div class="card">
+                <img height="255" width="255" src="../Images/sleekTable255x255.png">
+              <div class="card-body">
+                <h5 class="card-title">Sleek Modern Coffee Table</h5>
+                <p class="card-text">$163.99</p>
+                <img src="../Images/twosquares.png">
+              </div>
+            </div>
+        </div> -->
+        <!-- <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div> -->
+        <!-- <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div> -->
+      </div>
+  </div>
+
+<!-- New Search results end -->
+
+<!-- SEARCH RESULTS GRID START -->
+<!-- <div class="container">
+    <div class="row">
+      <div class="col" id="searchpic1"><a href="../HTML/lamppage1.html"><img src="../Images/ellisLamp255x255.png"></a></div>
+      <div class="col" id="searchpic2"><img src="../Images/goldLamp255x255.png"></div>
+      <div class="col" id="searchpic3"><img src="../Images/edrisLamp255x255.png"></div>
+      <div class="col" id="searchpic4"><img src="../Images/genevaLamp255x255.png"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col subtitle1"><img src="../Images/tansquare.png"></div>
+          <div class="col subtitle1"><img src="../Images/tansquare.png"></div>
+          <div class="col subtitle1"><img src="../Images/tansquare.png"></div>
+          <div class="col subtitle1"><img src="../Images/tansquare.png"></div>
+        </div>
+      </div>
+      <div class="w-100"></div>
+      <div class="col subtitle1">Ellis Tripod Floor Lamp</div>
+      <div class="col subtitle1">Gold Accent Lamp</div>
+      <div class="col subtitle1">Edris Brass Floor Lamp</div>
+      <div class="col subtitle1">Geneva Globe Lamp</div>
+      <div class="w-100"></div>
+      <div class="col subtitle2">$79.00</div>
+      <div class="col subtitle2">$24.99</div>
+      <div class="col subtitle2">$89.00</div>
+      <div class="col subtitle2">$99.99</div>
+    </div>
+  </div> -->
+<!-- SEARCH RESULTS GRID END -->
+
+<!-- VIEW MORE PRODUCTS START -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col InstaTitle">View More Products</div>
+    </div>
+</div> -->
+<!-- VIEW MORE PRODUCTS END -->
+
+    <br>
+    <br>
+    <br>
+  <!-- FOOTER START -->
+  <footer class="page-footer font-small blue pt-4 nav-fill">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+    
+            <!-- Content -->
+            <h5 class="text-uppercase">Contact Us</h5>
+            <p><a href="#!" class="footerLink">1 (800) 646-9985</a></p>
+            <p><a href="mailto: customerservice@oakandthread.com" class="footerLink">customerservice@oakandthread.com</a></p>
+            <p><a href="www.target.com" class="footerLink">Find a Target</a></p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+    
+            <!-- Links -->
+            <h5 class="text-uppercase">Customer Service</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="footerLink">Contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Ordering & Payment</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Shipping</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Returns</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">FAQs</a>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+    
+            <!-- Links -->
+            <h5 class="text-uppercase">Information</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="footerLink">Work With Us</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#!" class="footerLink">Media Inquiries</a>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- FOOTER END -->
+    <!-- Bootstrap JAVA -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
